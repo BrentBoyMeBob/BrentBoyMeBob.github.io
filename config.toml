@@ -1,5 +1,5 @@
 ### BASE SETTINGS
-baseURL = 'https://bbmb.me/' # Default URL (my own website).
+baseURL = 'https://brentboymebob.github.io' # Default URL (my own website).
 languageCode = 'en-us' # Default language (english).
 title = 'BrentBoyMeBlog' # Title of the blog.
 theme = "terminal" # Defining the theme.
