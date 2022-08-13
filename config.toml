@@ -1,0 +1,38 @@
+### BASE SETTINGS
+baseURL = 'https://bbmb.me/' # Default URL (my own website).
+languageCode = 'en-us' # Default language (english).
+title = 'BrentBoyMeBlog' # Title of the blog.
+theme = "terminal" # Defining the theme.
+
+### PARAMETERS
+[params]
+  contentTypeName = "posts" # Where all of my posts will go.
+  themeColor = "green" # Primary website color.
+  #showMenuItems = 0 # Number of menu items, 0 is collapsable.
+  showLanguageSelector = false # The primary language is English at the moment.
+  fullWidthTheme = false # Make sure the page doesn't take all of the space.
+  centerTheme = true # However, do center the view of the webpage.
+  autoCover = true # Set up the auto cover.
+  showLastUpdated = false # Do not show the posts by last updated.
+  #favicon = "favicon.ico" # At the moment, I currently don't have a favicon.
+  updatedDatePrefix = "Updated" # Do add an updated prefix.
+
+### DIALOG SETTINGS
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "BrentBoyMeBlog"
+    subtitle = "Welcome to the alleyway! This is my blog where I post all of my biased-ass opinions and discuss my thoughts on general topics."
+    owner = "Brent Monning"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Looks like you've reached a dead end..."
+    missingBackButtonLabel = "Pull a 180 back to the start."
+    [languages.en.params.logo]
+      logoText = "BBMB.ME"
+      logoHomeLink = "/"
