@@ -7,7 +7,7 @@ theme = "terminal" # Defining the theme.
   name = "Brent Monning"
   email = "brent.monning.jr@gmail.com"
 
-### PARAMETERS
+### PREFERENCES
 [params]
   contentTypeName = "posts" # Where all of my posts will go.
   themeColor = "green" # Primary website color.
@@ -20,7 +20,7 @@ theme = "terminal" # Defining the theme.
   #favicon = "favicon.ico" # At the moment, I currently don't have a favicon.
   updatedDatePrefix = "Updated" # Do add an updated prefix.
 
-### DIALOG SETTINGS
+### DIALOGS AND MENUS
 [languages]
   [languages.en]
     languageName = "English"
@@ -39,3 +39,12 @@ theme = "terminal" # Defining the theme.
     [languages.en.params.logo]
       logoText = "BBMB.ME"
       logoHomeLink = "/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+	name = "About"
+	url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "rss"
+	name = "RSS"
+	url = "/posts/index.xml"
